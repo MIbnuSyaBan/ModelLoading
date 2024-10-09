@@ -53,7 +53,7 @@ int main()
 
     // Load the model
     std::string parentDir = (fs::current_path().fs::path::parent_path()).string();
-    std::string modelPath = "/WCG/Models/keyboard6/scene.gltf";
+    std::string modelPath = "/WCG/Models/phone/scene.gltf";
     Model model((parentDir + modelPath).c_str());
 
     // Set the initial model position and scale
